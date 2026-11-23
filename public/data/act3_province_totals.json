@@ -1,0 +1,163 @@
+[
+ {
+  "birth_province": "East Flanders",
+  "medals": 11.49,
+  "points": 26.85,
+  "medal_winners": 9,
+  "period": "1994+"
+ },
+ {
+  "birth_province": "Unknown",
+  "medals": 8.97,
+  "points": 13.66,
+  "medal_winners": 19,
+  "period": "1994+"
+ },
+ {
+  "birth_province": "Brussels",
+  "medals": 8.53,
+  "points": 16.44,
+  "medal_winners": 18,
+  "period": "1994+"
+ },
+ {
+  "birth_province": "Antwerp",
+  "medals": 8.37,
+  "points": 13.74,
+  "medal_winners": 15,
+  "period": "1994+"
+ },
+ {
+  "birth_province": "Liège",
+  "medals": 4.88,
+  "points": 7.93,
+  "medal_winners": 7,
+  "period": "1994+"
+ },
+ {
+  "birth_province": "West Flanders",
+  "medals": 3.0,
+  "points": 6.0,
+  "medal_winners": 2,
+  "period": "1994+"
+ },
+ {
+  "birth_province": "Limburg",
+  "medals": 3.0,
+  "points": 6.0,
+  "medal_winners": 3,
+  "period": "1994+"
+ },
+ {
+  "birth_province": "Flemish Brabant",
+  "medals": 2.25,
+  "points": 5.75,
+  "medal_winners": 2,
+  "period": "1994+"
+ },
+ {
+  "birth_province": "Namur",
+  "medals": 1.33,
+  "points": 3.33,
+  "medal_winners": 2,
+  "period": "1994+"
+ },
+ {
+  "birth_province": "Hainaut",
+  "medals": 1.0,
+  "points": 1.0,
+  "medal_winners": 1,
+  "period": "1994+"
+ },
+ {
+  "birth_province": "Walloon Brabant",
+  "medals": 0.13,
+  "points": 0.31,
+  "medal_winners": 1,
+  "period": "1994+"
+ },
+ {
+  "birth_province": "Antwerp",
+  "medals": 44.25,
+  "points": 82.76,
+  "medal_winners": 86,
+  "period": "All years"
+ },
+ {
+  "birth_province": "Brussels",
+  "medals": 29.09,
+  "points": 54.34,
+  "medal_winners": 76,
+  "period": "All years"
+ },
+ {
+  "birth_province": "East Flanders",
+  "medals": 21.71,
+  "points": 45.26,
+  "medal_winners": 42,
+  "period": "All years"
+ },
+ {
+  "birth_province": "Unknown",
+  "medals": 19.62,
+  "points": 38.34,
+  "medal_winners": 53,
+  "period": "All years"
+ },
+ {
+  "birth_province": "Flemish Brabant",
+  "medals": 16.0,
+  "points": 35.58,
+  "medal_winners": 13,
+  "period": "All years"
+ },
+ {
+  "birth_province": "Liège",
+  "medals": 13.06,
+  "points": 23.38,
+  "medal_winners": 26,
+  "period": "All years"
+ },
+ {
+  "birth_province": "West Flanders",
+  "medals": 12.99,
+  "points": 29.28,
+  "medal_winners": 18,
+  "period": "All years"
+ },
+ {
+  "birth_province": "Limburg",
+  "medals": 7.25,
+  "points": 12.75,
+  "medal_winners": 6,
+  "period": "All years"
+ },
+ {
+  "birth_province": "Hainaut",
+  "medals": 6.49,
+  "points": 13.21,
+  "medal_winners": 9,
+  "period": "All years"
+ },
+ {
+  "birth_province": "Namur",
+  "medals": 1.9,
+  "points": 4.55,
+  "medal_winners": 5,
+  "period": "All years"
+ },
+ {
+  "birth_province": "Walloon Brabant",
+  "medals": 1.27,
+  "points": 1.6,
+  "medal_winners": 2,
+  "period": "All years"
+ },
+ {
+  "birth_province": "Luxembourg",
+  "medals": 1.09,
+  "points": 1.18,
+  "medal_winners": 2,
+  "period": "All years"
+ }
+]

@@ -1,0 +1,93 @@
+{
+ "is_sample": true,
+ "generated_at": "2026-11-07T12:00:00Z",
+ "games_covered": {
+  "from": 1896,
+  "to": 2024
+ },
+ "population_year": 2024,
+ "gdp_year": 2024,
+ "gdp_unit": "current US$",
+ "sources": [
+  {
+   "name": "Olympic athlete results (sample)",
+   "publisher": "Team placeholder",
+   "url": "https://example.org/olympics",
+   "licence": "CC BY 4.0 (placeholder)",
+   "accessed": "2026-11-01"
+  },
+  {
+   "name": "Population, total (SP.POP.TOTL)",
+   "publisher": "World Bank",
+   "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+   "licence": "CC BY 4.0",
+   "accessed": "2026-11-01"
+  },
+  {
+   "name": "GDP (current US$)",
+   "publisher": "World Bank",
+   "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD",
+   "licence": "CC BY 4.0",
+   "accessed": "2026-11-01"
+  },
+  {
+   "name": "Belgian provinces (Statbel)",
+   "publisher": "Statbel",
+   "url": "https://statbel.fgov.be",
+   "licence": "Open data licence",
+   "accessed": "2026-11-01"
+  }
+ ],
+ "lineage": [
+  {
+   "stage": "Raw",
+   "fabric_item": "lh_raw",
+   "description": "Ingested CSV/JSON files from open data sources",
+   "row_count": 271116
+  },
+  {
+   "stage": "Clean",
+   "fabric_item": "lh_clean",
+   "description": "Deduplicated, NOC\u2192ISO3 mapped, birthplaces geocoded",
+   "row_count": 38500
+  },
+  {
+   "stage": "Gold",
+   "fabric_item": "lh_gold.medal_facts",
+   "description": "Medal fact table at medal \u00d7 athlete grain",
+   "row_count": 4311
+  },
+  {
+   "stage": "JSON export",
+   "fabric_item": "notebook_export",
+   "description": "Static JSON written for this app",
+   "row_count": 4311
+  }
+ ],
+ "quality_checks": [
+  {
+   "check": "NOC to ISO3 mapping",
+   "description": "Historic NOCs (URS, GDR, TCH) mapped to modern successors",
+   "result": "Pass with warnings",
+   "rows_affected": 1240
+  },
+  {
+   "check": "Birth country known",
+   "description": "Rows where birth country could not be determined",
+   "result": "Warning",
+   "rows_affected": 251
+  },
+  {
+   "check": "Official table reconciliation",
+   "description": "Team medals summed by represented country match official totals",
+   "result": "Pass",
+   "rows_affected": 0
+  }
+ ],
+ "known_limitations": [
+  "Historic countries are mapped to a single modern successor.",
+  "Population and GDP use the latest year, not the year of the Games.",
+  "Birthplace data is incomplete for early Games."
+ ],
+ "ai_disclosure": "To be completed by the team."
+}

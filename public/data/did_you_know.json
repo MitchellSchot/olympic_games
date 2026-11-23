@@ -1,0 +1,375 @@
+[
+ {
+  "id": "hall_of_fame",
+  "kicker": "Hall of fame",
+  "headline": "28",
+  "headline_label": "Olympic medals for Michael Phelps, more than anyone else",
+  "text": "The most decorated Olympians ever. Belgium's record holder is Hubert Van Innis with 10 medals (Archery).",
+  "chart": null,
+  "lists": [
+   {
+    "title": "World top 10",
+    "rows": [
+     {
+      "rank": 1,
+      "name": "Michael Phelps",
+      "team": "United States",
+      "sport": "Swimming",
+      "gold": 23,
+      "silver": 3,
+      "bronze": 2,
+      "medals": 28,
+      "years": "2004–2016"
+     },
+     {
+      "rank": 2,
+      "name": "Larisa Latynina",
+      "team": "Soviet Union",
+      "sport": "Artistic Gymnastics",
+      "gold": 9,
+      "silver": 5,
+      "bronze": 4,
+      "medals": 18,
+      "years": "1956–1964"
+     },
+     {
+      "rank": 3,
+      "name": "Marit Bjørgen",
+      "team": "Norway",
+      "sport": "Cross Country Skiing",
+      "gold": 8,
+      "silver": 4,
+      "bronze": 3,
+      "medals": 15,
+      "years": "2002–2018"
+     },
+     {
+      "rank": 4,
+      "name": "Nikolay Andrianov",
+      "team": "Soviet Union",
+      "sport": "Artistic Gymnastics",
+      "gold": 7,
+      "silver": 5,
+      "bronze": 3,
+      "medals": 15,
+      "years": "1972–1980"
+     },
+     {
+      "rank": 5,
+      "name": "Ole Einar Bjørndalen",
+      "team": "Norway",
+      "sport": "Biathlon",
+      "gold": 8,
+      "silver": 4,
+      "bronze": 1,
+      "medals": 13,
+      "years": "1998–2014"
+     },
+     {
+      "rank": 6,
+      "name": "Boris Shakhlin",
+      "team": "Soviet Union",
+      "sport": "Artistic Gymnastics",
+      "gold": 7,
+      "silver": 4,
+      "bronze": 2,
+      "medals": 13,
+      "years": "1956–1964"
+     },
+     {
+      "rank": 7,
+      "name": "Ireen Wüst",
+      "team": "Netherlands",
+      "sport": "Speed Skating",
+      "gold": 6,
+      "silver": 5,
+      "bronze": 2,
+      "medals": 13,
+      "years": "2006–2022"
+     },
+     {
+      "rank": 7,
+      "name": "Edoardo Mangiarotti",
+      "team": "Italy",
+      "sport": "Fencing",
+      "gold": 6,
+      "silver": 5,
+      "bronze": 2,
+      "medals": 13,
+      "years": "1936–1960"
+     },
+     {
+      "rank": 9,
+      "name": "Takashi Ono",
+      "team": "Japan",
+      "sport": "Artistic Gymnastics",
+      "gold": 5,
+      "silver": 4,
+      "bronze": 4,
+      "medals": 13,
+      "years": "1952–1964"
+     },
+     {
+      "rank": 10,
+      "name": "Paavo Nurmi",
+      "team": "Finland",
+      "sport": "Athletics",
+      "gold": 9,
+      "silver": 3,
+      "bronze": 0,
+      "medals": 12,
+      "years": "1920–1928"
+     }
+    ]
+   },
+   {
+    "title": "Top 3 for Belgium",
+    "rows": [
+     {
+      "rank": 1,
+      "name": "Hubert Van Innis",
+      "team": "Belgium",
+      "sport": "Archery",
+      "gold": 6,
+      "silver": 4,
+      "bronze": 0,
+      "medals": 10,
+      "years": "1900–1920"
+     },
+     {
+      "rank": 2,
+      "name": "Paul Anspach",
+      "team": "Belgium",
+      "sport": "Fencing",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 1,
+      "medals": 5,
+      "years": "1908–1924"
+     },
+     {
+      "rank": 3,
+      "name": "Louis Van De Perck",
+      "team": "Belgium",
+      "sport": "Archery",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 0,
+      "medals": 4,
+      "years": "1920–1920"
+     }
+    ]
+   }
+  ],
+  "scope": "Summer and Winter Games 1896–2024",
+  "method": "Every medal counts fully for each athlete: a relay gold counts as 1 medal for every swimmer. Ranked on total medals; ties broken on gold. Belgium: medals won for Belgium only. The 1906 Games and the art competitions are not included, so a few totals can differ from other lists.",
+  "note": "Names, teams and medals only: no birth dates or birthplaces."
+ },
+ {
+  "id": "small_country_big_haul",
+  "kicker": "Small country, big haul",
+  "headline": "13×",
+  "headline_label": "more Summer medals per person for Bahamas than for the USA",
+  "text": "Per inhabitant, small nations like Jamaica and New Zealand outperform the giants.",
+  "chart": {
+   "type": "bar",
+   "unit": "medals per million inhabitants per Games",
+   "data": [
+    {
+     "label": "Bahamas",
+     "value": 4.5
+    },
+    {
+     "label": "Jamaica",
+     "value": 3.21
+    },
+    {
+     "label": "New Zealand",
+     "value": 2.69
+    },
+    {
+     "label": "United States",
+     "value": 0.35
+    }
+   ]
+  },
+  "lists": null,
+  "scope": "Summer Games 1994–2024",
+  "method": "Current countries with at least 10 Summer medals since 1994. Medals per million = all medals divided by the population of each Games year, summed over the Games attended (same rule as Act 1). A team medal counts once.",
+  "note": "Population of each Games year, not today's."
+ },
+ {
+  "id": "medal_age",
+  "kicker": "Never too young, never too old",
+  "headline": "10–72",
+  "headline_label": "years old: the youngest and the oldest Olympic medallist",
+  "text": "The youngest medallist was Dimitrios Loundras (Greece, Artistic Gymnastics, 1896), aged 10; the oldest Oscar Swahn (Sweden, Shooting, 1920), aged 72. The typical medallist is 26: swimming medallists are youngest, equestrian dressage medallists oldest.",
+  "chart": {
+   "type": "bar",
+   "unit": "median age of medallists (years)",
+   "data": [
+    {
+     "label": "Swimming",
+     "value": 21.0
+    },
+    {
+     "label": "Boxing",
+     "value": 23.0
+    },
+    {
+     "label": "Diving",
+     "value": 23.0
+    },
+    {
+     "label": "Equestrian Eventing",
+     "value": 34.0
+    },
+    {
+     "label": "Equestrian Jumping",
+     "value": 34.0
+    },
+    {
+     "label": "Equestrian Dressage",
+     "value": 40.0
+    }
+   ]
+  },
+  "lists": null,
+  "scope": "Summer and Winter Games 1896–2024",
+  "method": "Age = year of the Games minus birth year (Olympedia first, else the original source), so it can be 1 year off. Median per sport over all medals, sports with at least 200 medals only. Youngest and oldest checked by hand; athletes who are minors today are not named.",
+  "note": "Ages known for most medallists; the rest are left out."
+ },
+ {
+  "id": "antwerp_1920",
+  "kicker": "Home advantage: Antwerp 1920",
+  "headline": "36",
+  "headline_label": "medals for Belgium at Antwerp 1920, its best Games ever",
+  "text": "That is 8× its average at the other Summer Games. Home advantage helped, and Antwerp had many events: 435 medals were handed out, against 379 in Paris four years later. 14 of Belgium's 36 medals came in archery.",
+  "chart": {
+   "type": "bar",
+   "unit": "Belgian medals per Summer Games",
+   "data": [
+    {
+     "label": "1896",
+     "value": 0
+    },
+    {
+     "label": "1900",
+     "value": 18
+    },
+    {
+     "label": "1908",
+     "value": 8
+    },
+    {
+     "label": "1912",
+     "value": 6
+    },
+    {
+     "label": "1920",
+     "value": 36
+    },
+    {
+     "label": "1924",
+     "value": 13
+    },
+    {
+     "label": "1928",
+     "value": 3
+    },
+    {
+     "label": "1932",
+     "value": 0
+    },
+    {
+     "label": "1936",
+     "value": 2
+    },
+    {
+     "label": "1948",
+     "value": 7
+    },
+    {
+     "label": "1952",
+     "value": 4
+    },
+    {
+     "label": "1956",
+     "value": 2
+    },
+    {
+     "label": "1960",
+     "value": 4
+    },
+    {
+     "label": "1964",
+     "value": 3
+    },
+    {
+     "label": "1968",
+     "value": 2
+    },
+    {
+     "label": "1972",
+     "value": 2
+    },
+    {
+     "label": "1976",
+     "value": 6
+    },
+    {
+     "label": "1980",
+     "value": 1
+    },
+    {
+     "label": "1984",
+     "value": 4
+    },
+    {
+     "label": "1988",
+     "value": 2
+    },
+    {
+     "label": "1992",
+     "value": 3
+    },
+    {
+     "label": "1996",
+     "value": 6
+    },
+    {
+     "label": "2000",
+     "value": 5
+    },
+    {
+     "label": "2004",
+     "value": 3
+    },
+    {
+     "label": "2008",
+     "value": 2
+    },
+    {
+     "label": "2012",
+     "value": 3
+    },
+    {
+     "label": "2016",
+     "value": 6
+    },
+    {
+     "label": "2020",
+     "value": 7
+    },
+    {
+     "label": "2024",
+     "value": 10
+    }
+   ]
+  },
+  "lists": null,
+  "scope": "Summer Games 1900–2024",
+  "method": "Belgium's official medal count per Summer Games (a team medal counts once). Medals handed out = all official medals at those Games.",
+  "note": "A team medal counts once."
+ }
+]

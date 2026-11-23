@@ -1,0 +1,1 @@
+DROP POLICY IF EXISTS "Read Act 1 exports" ON storage.objects;

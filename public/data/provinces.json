@@ -1,0 +1,90 @@
+[
+ {
+  "nis": "10000",
+  "name_en": "Antwerp",
+  "name_nl": "Antwerpen",
+  "name_fr": "Anvers",
+  "region": "Flanders",
+  "population": 1900000
+ },
+ {
+  "nis": "20001",
+  "name_en": "Flemish Brabant",
+  "name_nl": "Vlaams-Brabant",
+  "name_fr": "Brabant flamand",
+  "region": "Flanders",
+  "population": 1180000
+ },
+ {
+  "nis": "20002",
+  "name_en": "Walloon Brabant",
+  "name_nl": "Waals-Brabant",
+  "name_fr": "Brabant wallon",
+  "region": "Wallonia",
+  "population": 410000
+ },
+ {
+  "nis": "30000",
+  "name_en": "West Flanders",
+  "name_nl": "West-Vlaanderen",
+  "name_fr": "Flandre-Occidentale",
+  "region": "Flanders",
+  "population": 1220000
+ },
+ {
+  "nis": "40000",
+  "name_en": "East Flanders",
+  "name_nl": "Oost-Vlaanderen",
+  "name_fr": "Flandre-Orientale",
+  "region": "Flanders",
+  "population": 1560000
+ },
+ {
+  "nis": "50000",
+  "name_en": "Hainaut",
+  "name_nl": "Henegouwen",
+  "name_fr": "Hainaut",
+  "region": "Wallonia",
+  "population": 1350000
+ },
+ {
+  "nis": "60000",
+  "name_en": "Li\u00e8ge",
+  "name_nl": "Luik",
+  "name_fr": "Li\u00e8ge",
+  "region": "Wallonia",
+  "population": 1110000
+ },
+ {
+  "nis": "70000",
+  "name_en": "Limburg",
+  "name_nl": "Limburg",
+  "name_fr": "Limbourg",
+  "region": "Flanders",
+  "population": 890000
+ },
+ {
+  "nis": "80000",
+  "name_en": "Luxembourg",
+  "name_nl": "Luxemburg",
+  "name_fr": "Luxembourg",
+  "region": "Wallonia",
+  "population": 290000
+ },
+ {
+  "nis": "90000",
+  "name_en": "Namur",
+  "name_nl": "Namen",
+  "name_fr": "Namur",
+  "region": "Wallonia",
+  "population": 500000
+ },
+ {
+  "nis": "04000",
+  "name_en": "Brussels-Capital Region",
+  "name_nl": "Brussels Hoofdstedelijk Gewest",
+  "name_fr": "R\u00e9gion de Bruxelles-Capitale",
+  "region": "Brussels",
+  "population": 1240000
+ }
+]

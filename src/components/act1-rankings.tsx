@@ -1,0 +1,26 @@
+import { CountryName } from '@/lib/flags';
+import { useState } from 'react';
+import { RankMedal } from '@/lib/rank-medal';
+import { FlagTick, FlagTooltip } from '@/lib/flags';
+import { Bar, BarChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
+import { useFilters } from '@/lib/app-state';
+import { ACT1_LABELS, act1Rankings, fmtAct1Ratio, fmtCount, type Act1Ranking, type Act1Measure, type CountryEdition } from '@/lib/data';
+import { ChartCard, Empty, MedalBadge } from './shell';
+import { Tabs, TabsList, TabsTrigger } from './ui/tabs';
+import { Input } from './ui/input';
+import { Button } from './ui/button';
+
+export function RealAct1Rankings({ editions }: { editions: CountryEdition[] }) {
+  const [f] = useFilters(); const [measure, setMeasure] = useState<Act1Measure>('per_capita'); const [search, setSearch] = useState('');
+  const [sort, setSort] = useState<{ key: keyof Act1Ranking; desc: boolean }>({ key: 'rank_points', desc: false });
+  const { rows, hidden, footnote } = act1Rankings(editions, measure, f);
+  const shown = rows.filter(r => `${r.country_name} ${r.team}`.toLowerCase().includes(search.toLowerCase())).sort((a,b) => {
+    const x = a[sort.key], y = b[sort.key]; const delta = typeof x === 'string' ? x.localeCompare(String(y)) : x - Number(y); return sort.desc ? -delta : delta;
+  });
+  function Heading({ field, label }: { field: keyof Act1Ranking; label: string }) {
+    return <th className="p-3 text-right"><Button variant="ghost" className="h-auto whitespace-normal p-0 text-xs font-bold" onClick={() => setSort({ key: field, desc: field === sort.key ? !sort.desc : !['country_name','rank_points'].includes(field) })}>{label}{sort.key === field ? sort.desc ? ' ↓' : ' ↑' : ''}</Button></th>;
+  }
+  return <><Tabs value={measure} onValueChange={v => setMeasure(v as Act1Measure)} className="mb-6"><TabsList><TabsTrigger value="per_capita">Per capita</TabsTrigger><TabsTrigger value="per_gdp">Per GDP</TabsTrigger></TabsList></Tabs>
+    {rows.length ? <ChartCard title={`Top 15 — ${measure === 'per_capita' ? 'per capita' : 'per GDP'}`} what={ACT1_LABELS[measure]} caption={<>{ACT1_LABELS[measure]}{footnote && <span className="mt-2 block">{footnote}</span>}{f.games === 'All' && <span className="mt-2 block">All Games adds a full population for every Winter Games attended; countries with small Winter teams rank lower.</span>}</>}><div className="h-[460px]"><ResponsiveContainer><BarChart data={rows.slice(0,15).map(r => ({ ...r, label: `${r.team} · ${r.country_name}` }))} layout="vertical" margin={{ left: 0, right: 24 }}><CartesianGrid horizontal={false} strokeDasharray="3 3" /><XAxis type="number" tick={{ fontSize: 12 }} /><YAxis type="category" dataKey="label" width={210} interval={0} tick={(p: any) => { const row = rows[p.index]; return <FlagTick x={p.x} y={p.y} label={row ? `${row.team} · ${row.country_name}` : String(p.payload.value)} noc={row?.team} rank={row?.rank_points} max={20} />; }} /><Tooltip content={(t: any) => <FlagTooltip {...t} nocOf={r => ({ noc: String(r.team), name: String(r.country_name) })} format={v => fmtAct1Ratio(Number(v))} />} /><Bar dataKey="points_ratio" name="Medal score" fill="var(--ring-blue)" radius={[0,4,4,0]} /></BarChart></ResponsiveContainer></div></ChartCard> : <><Empty />{footnote && <p className="mt-4 text-sm text-muted-foreground">{footnote}</p>}{f.games === 'All' && <p className="mt-4 text-sm text-muted-foreground">All Games adds a full population for every Winter Games attended; countries with small Winter teams rank lower.</p>}</>}
+    <section className="mt-8"><div className="mb-4 flex flex-wrap items-center gap-4"><Input aria-label="Search country" placeholder="Search a country or team…" value={search} onChange={e => setSearch(e.target.value)} className="max-w-xs" /><span className="text-sm text-muted-foreground">{hidden} countries hidden (fewer than {f.min} medals or no usable denominator)</span></div><div className="overflow-x-auto"><table className="w-full text-sm"><thead className="border-b text-muted-foreground"><tr><Heading field="rank_points" label="Rank" /><Heading field="country_name" label="Country" /><Heading field="gold" label="Gold" /><Heading field="silver" label="Silver" /><Heading field="bronze" label="Bronze" /><Heading field="points" label="Score" /><Heading field="games_attended" label="Games" /><Heading field="points_ratio" label={ACT1_LABELS[measure]} /></tr></thead><tbody>{shown.map(r => <tr key={r.team} className="border-b"><td className="p-3 text-right font-bold whitespace-nowrap"><RankMedal rank={r.rank_points} />{r.rank_points}</td><td className="p-3"><CountryName noc={r.team} name={r.country_name} /></td><td className="p-3 text-right"><MedalBadge kind="gold" value={fmtCount(r.gold)} /></td><td className="p-3 text-right"><MedalBadge kind="silver" value={fmtCount(r.silver)} /></td><td className="p-3 text-right"><MedalBadge kind="bronze" value={fmtCount(r.bronze)} /></td><td className="p-3 text-right">{fmtCount(r.points)}</td><td className="p-3 text-right">{r.games_attended}</td><td className="p-3 text-right font-bold tabular-nums">{fmtAct1Ratio(r.points_ratio)}</td></tr>)}</tbody></table></div></section></>;
+}

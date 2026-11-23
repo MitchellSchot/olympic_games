@@ -1,0 +1,1 @@
+CREATE POLICY "Read Act 1 exports" ON storage.objects FOR SELECT TO anon, authenticated USING (bucket_id = 'demo-data' AND name IN ('act1_country_editions.json', 'act1_reference_rankings.json'));

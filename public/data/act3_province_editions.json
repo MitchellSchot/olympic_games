@@ -1,0 +1,1066 @@
+[
+ {
+  "birth_province": "Antwerp",
+  "year": 1900,
+  "season": "Summer Olympics",
+  "medals": 1.0,
+  "points": 3.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Antwerp",
+  "year": 1908,
+  "season": "Summer Olympics",
+  "medals": 1.38,
+  "points": 2.19,
+  "medal_winners": 7
+ },
+ {
+  "birth_province": "Antwerp",
+  "year": 1912,
+  "season": "Summer Olympics",
+  "medals": 0.22,
+  "points": 0.22,
+  "medal_winners": 2
+ },
+ {
+  "birth_province": "Antwerp",
+  "year": 1920,
+  "season": "Summer Olympics",
+  "medals": 9.18,
+  "points": 19.96,
+  "medal_winners": 35
+ },
+ {
+  "birth_province": "Antwerp",
+  "year": 1924,
+  "season": "Summer Olympics",
+  "medals": 6.36,
+  "points": 12.21,
+  "medal_winners": 15
+ },
+ {
+  "birth_province": "Antwerp",
+  "year": 1924,
+  "season": "Winter Olympics",
+  "medals": 0.4,
+  "points": 0.4,
+  "medal_winners": 2
+ },
+ {
+  "birth_province": "Antwerp",
+  "year": 1928,
+  "season": "Summer Olympics",
+  "medals": 3.2,
+  "points": 5.4,
+  "medal_winners": 3
+ },
+ {
+  "birth_province": "Antwerp",
+  "year": 1936,
+  "season": "Summer Olympics",
+  "medals": 0.22,
+  "points": 0.22,
+  "medal_winners": 2
+ },
+ {
+  "birth_province": "Antwerp",
+  "year": 1936,
+  "season": "Winter Olympics",
+  "medals": 1.0,
+  "points": 1.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Antwerp",
+  "year": 1948,
+  "season": "Summer Olympics",
+  "medals": 2.67,
+  "points": 4.67,
+  "medal_winners": 4
+ },
+ {
+  "birth_province": "Antwerp",
+  "year": 1948,
+  "season": "Winter Olympics",
+  "medals": 0.5,
+  "points": 1.5,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Antwerp",
+  "year": 1952,
+  "season": "Summer Olympics",
+  "medals": 1.25,
+  "points": 2.75,
+  "medal_winners": 3
+ },
+ {
+  "birth_province": "Antwerp",
+  "year": 1956,
+  "season": "Summer Olympics",
+  "medals": 2.0,
+  "points": 4.0,
+  "medal_winners": 2
+ },
+ {
+  "birth_province": "Antwerp",
+  "year": 1960,
+  "season": "Summer Olympics",
+  "medals": 2.0,
+  "points": 3.0,
+  "medal_winners": 2
+ },
+ {
+  "birth_province": "Antwerp",
+  "year": 1976,
+  "season": "Summer Olympics",
+  "medals": 1.5,
+  "points": 2.5,
+  "medal_winners": 3
+ },
+ {
+  "birth_province": "Antwerp",
+  "year": 1984,
+  "season": "Summer Olympics",
+  "medals": 1.0,
+  "points": 3.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Antwerp",
+  "year": 1988,
+  "season": "Summer Olympics",
+  "medals": 1.0,
+  "points": 1.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Antwerp",
+  "year": 1992,
+  "season": "Summer Olympics",
+  "medals": 1.0,
+  "points": 2.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Antwerp",
+  "year": 1996,
+  "season": "Summer Olympics",
+  "medals": 1.0,
+  "points": 2.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Antwerp",
+  "year": 2000,
+  "season": "Summer Olympics",
+  "medals": 0.5,
+  "points": 0.5,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Antwerp",
+  "year": 2002,
+  "season": "Winter Olympics",
+  "medals": 1.0,
+  "points": 1.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Antwerp",
+  "year": 2008,
+  "season": "Summer Olympics",
+  "medals": 1.25,
+  "points": 3.75,
+  "medal_winners": 2
+ },
+ {
+  "birth_province": "Antwerp",
+  "year": 2012,
+  "season": "Summer Olympics",
+  "medals": 0.06,
+  "points": 0.12,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Antwerp",
+  "year": 2016,
+  "season": "Summer Olympics",
+  "medals": 1.31,
+  "points": 1.63,
+  "medal_winners": 6
+ },
+ {
+  "birth_province": "Antwerp",
+  "year": 2020,
+  "season": "Summer Olympics",
+  "medals": 2.25,
+  "points": 3.75,
+  "medal_winners": 6
+ },
+ {
+  "birth_province": "Antwerp",
+  "year": 2024,
+  "season": "Summer Olympics",
+  "medals": 1.0,
+  "points": 1.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Brussels",
+  "year": 1900,
+  "season": "Summer Olympics",
+  "medals": 2.79,
+  "points": 3.49,
+  "medal_winners": 10
+ },
+ {
+  "birth_province": "Brussels",
+  "year": 1908,
+  "season": "Summer Olympics",
+  "medals": 2.47,
+  "points": 5.65,
+  "medal_winners": 9
+ },
+ {
+  "birth_province": "Brussels",
+  "year": 1912,
+  "season": "Summer Olympics",
+  "medals": 2.22,
+  "points": 5.56,
+  "medal_winners": 9
+ },
+ {
+  "birth_province": "Brussels",
+  "year": 1920,
+  "season": "Summer Olympics",
+  "medals": 2.82,
+  "points": 5.51,
+  "medal_winners": 23
+ },
+ {
+  "birth_province": "Brussels",
+  "year": 1924,
+  "season": "Summer Olympics",
+  "medals": 2.2,
+  "points": 5.14,
+  "medal_winners": 7
+ },
+ {
+  "birth_province": "Brussels",
+  "year": 1928,
+  "season": "Summer Olympics",
+  "medals": 0.33,
+  "points": 0.33,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Brussels",
+  "year": 1928,
+  "season": "Winter Olympics",
+  "medals": 1.0,
+  "points": 1.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Brussels",
+  "year": 1936,
+  "season": "Summer Olympics",
+  "medals": 0.47,
+  "points": 0.47,
+  "medal_winners": 3
+ },
+ {
+  "birth_province": "Brussels",
+  "year": 1936,
+  "season": "Winter Olympics",
+  "medals": 1.0,
+  "points": 3.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Brussels",
+  "year": 1948,
+  "season": "Summer Olympics",
+  "medals": 0.5,
+  "points": 0.5,
+  "medal_winners": 3
+ },
+ {
+  "birth_province": "Brussels",
+  "year": 1948,
+  "season": "Winter Olympics",
+  "medals": 1.0,
+  "points": 2.5,
+  "medal_winners": 3
+ },
+ {
+  "birth_province": "Brussels",
+  "year": 1968,
+  "season": "Summer Olympics",
+  "medals": 1.5,
+  "points": 2.5,
+  "medal_winners": 2
+ },
+ {
+  "birth_province": "Brussels",
+  "year": 1976,
+  "season": "Summer Olympics",
+  "medals": 1.25,
+  "points": 1.25,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Brussels",
+  "year": 1992,
+  "season": "Summer Olympics",
+  "medals": 1.0,
+  "points": 1.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Brussels",
+  "year": 1996,
+  "season": "Summer Olympics",
+  "medals": 1.0,
+  "points": 1.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Brussels",
+  "year": 2000,
+  "season": "Summer Olympics",
+  "medals": 0.5,
+  "points": 1.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Brussels",
+  "year": 2004,
+  "season": "Summer Olympics",
+  "medals": 1.5,
+  "points": 1.5,
+  "medal_winners": 2
+ },
+ {
+  "birth_province": "Brussels",
+  "year": 2008,
+  "season": "Summer Olympics",
+  "medals": 1.5,
+  "points": 3.5,
+  "medal_winners": 3
+ },
+ {
+  "birth_province": "Brussels",
+  "year": 2012,
+  "season": "Summer Olympics",
+  "medals": 0.5,
+  "points": 0.5,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Brussels",
+  "year": 2016,
+  "season": "Summer Olympics",
+  "medals": 1.56,
+  "points": 4.17,
+  "medal_winners": 10
+ },
+ {
+  "birth_province": "Brussels",
+  "year": 2020,
+  "season": "Summer Olympics",
+  "medals": 1.9,
+  "points": 4.6,
+  "medal_winners": 8
+ },
+ {
+  "birth_province": "Brussels",
+  "year": 2024,
+  "season": "Summer Olympics",
+  "medals": 0.08,
+  "points": 0.17,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "East Flanders",
+  "year": 1900,
+  "season": "Summer Olympics",
+  "medals": 2.98,
+  "points": 4.87,
+  "medal_winners": 10
+ },
+ {
+  "birth_province": "East Flanders",
+  "year": 1908,
+  "season": "Summer Olympics",
+  "medals": 0.81,
+  "points": 1.48,
+  "medal_winners": 7
+ },
+ {
+  "birth_province": "East Flanders",
+  "year": 1912,
+  "season": "Summer Olympics",
+  "medals": 1.0,
+  "points": 2.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "East Flanders",
+  "year": 1920,
+  "season": "Summer Olympics",
+  "medals": 0.65,
+  "points": 1.12,
+  "medal_winners": 11
+ },
+ {
+  "birth_province": "East Flanders",
+  "year": 1924,
+  "season": "Summer Olympics",
+  "medals": 0.17,
+  "points": 0.33,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "East Flanders",
+  "year": 1936,
+  "season": "Summer Olympics",
+  "medals": 0.11,
+  "points": 0.11,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "East Flanders",
+  "year": 1948,
+  "season": "Summer Olympics",
+  "medals": 0.5,
+  "points": 1.5,
+  "medal_winners": 2
+ },
+ {
+  "birth_province": "East Flanders",
+  "year": 1960,
+  "season": "Summer Olympics",
+  "medals": 1.0,
+  "points": 2.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "East Flanders",
+  "year": 1964,
+  "season": "Summer Olympics",
+  "medals": 1.0,
+  "points": 1.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "East Flanders",
+  "year": 1976,
+  "season": "Summer Olympics",
+  "medals": 2.0,
+  "points": 4.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "East Flanders",
+  "year": 2000,
+  "season": "Summer Olympics",
+  "medals": 2.2,
+  "points": 4.2,
+  "medal_winners": 4
+ },
+ {
+  "birth_province": "East Flanders",
+  "year": 2004,
+  "season": "Summer Olympics",
+  "medals": 1.67,
+  "points": 3.83,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "East Flanders",
+  "year": 2008,
+  "season": "Summer Olympics",
+  "medals": 1.25,
+  "points": 3.75,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "East Flanders",
+  "year": 2012,
+  "season": "Summer Olympics",
+  "medals": 2.0,
+  "points": 4.0,
+  "medal_winners": 2
+ },
+ {
+  "birth_province": "East Flanders",
+  "year": 2016,
+  "season": "Summer Olympics",
+  "medals": 2.31,
+  "points": 4.88,
+  "medal_winners": 4
+ },
+ {
+  "birth_province": "East Flanders",
+  "year": 2020,
+  "season": "Summer Olympics",
+  "medals": 0.06,
+  "points": 0.19,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "East Flanders",
+  "year": 2024,
+  "season": "Summer Olympics",
+  "medals": 2.0,
+  "points": 6.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Flemish Brabant",
+  "year": 1900,
+  "season": "Summer Olympics",
+  "medals": 4.0,
+  "points": 10.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Flemish Brabant",
+  "year": 1908,
+  "season": "Summer Olympics",
+  "medals": 1.25,
+  "points": 2.5,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Flemish Brabant",
+  "year": 1920,
+  "season": "Summer Olympics",
+  "medals": 4.25,
+  "points": 10.08,
+  "medal_winners": 5
+ },
+ {
+  "birth_province": "Flemish Brabant",
+  "year": 1936,
+  "season": "Summer Olympics",
+  "medals": 0.25,
+  "points": 0.25,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Flemish Brabant",
+  "year": 1960,
+  "season": "Summer Olympics",
+  "medals": 1.0,
+  "points": 1.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Flemish Brabant",
+  "year": 1964,
+  "season": "Summer Olympics",
+  "medals": 1.0,
+  "points": 3.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Flemish Brabant",
+  "year": 1972,
+  "season": "Summer Olympics",
+  "medals": 1.0,
+  "points": 2.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Flemish Brabant",
+  "year": 1992,
+  "season": "Summer Olympics",
+  "medals": 1.0,
+  "points": 1.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Flemish Brabant",
+  "year": 2008,
+  "season": "Summer Olympics",
+  "medals": 0.25,
+  "points": 0.75,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Flemish Brabant",
+  "year": 2018,
+  "season": "Winter Olympics",
+  "medals": 1.0,
+  "points": 2.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Flemish Brabant",
+  "year": 2022,
+  "season": "Winter Olympics",
+  "medals": 1.0,
+  "points": 3.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Hainaut",
+  "year": 1900,
+  "season": "Summer Olympics",
+  "medals": 3.0,
+  "points": 7.0,
+  "medal_winners": 3
+ },
+ {
+  "birth_province": "Hainaut",
+  "year": 1912,
+  "season": "Summer Olympics",
+  "medals": 1.17,
+  "points": 1.5,
+  "medal_winners": 2
+ },
+ {
+  "birth_province": "Hainaut",
+  "year": 1920,
+  "season": "Summer Olympics",
+  "medals": 1.32,
+  "points": 3.71,
+  "medal_winners": 3
+ },
+ {
+  "birth_province": "Hainaut",
+  "year": 1996,
+  "season": "Summer Olympics",
+  "medals": 1.0,
+  "points": 1.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Limburg",
+  "year": 1948,
+  "season": "Summer Olympics",
+  "medals": 1.0,
+  "points": 1.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Limburg",
+  "year": 1952,
+  "season": "Summer Olympics",
+  "medals": 1.25,
+  "points": 2.75,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Limburg",
+  "year": 1972,
+  "season": "Summer Olympics",
+  "medals": 1.0,
+  "points": 2.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Limburg",
+  "year": 1976,
+  "season": "Summer Olympics",
+  "medals": 1.0,
+  "points": 1.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Limburg",
+  "year": 2000,
+  "season": "Summer Olympics",
+  "medals": 1.0,
+  "points": 1.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Limburg",
+  "year": 2016,
+  "season": "Summer Olympics",
+  "medals": 1.0,
+  "points": 2.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Limburg",
+  "year": 2020,
+  "season": "Summer Olympics",
+  "medals": 1.0,
+  "points": 3.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Liège",
+  "year": 1900,
+  "season": "Summer Olympics",
+  "medals": 1.27,
+  "points": 3.27,
+  "medal_winners": 4
+ },
+ {
+  "birth_province": "Liège",
+  "year": 1908,
+  "season": "Summer Olympics",
+  "medals": 0.36,
+  "points": 0.72,
+  "medal_winners": 2
+ },
+ {
+  "birth_province": "Liège",
+  "year": 1920,
+  "season": "Summer Olympics",
+  "medals": 1.46,
+  "points": 2.88,
+  "medal_winners": 4
+ },
+ {
+  "birth_province": "Liège",
+  "year": 1924,
+  "season": "Summer Olympics",
+  "medals": 2.5,
+  "points": 4.75,
+  "medal_winners": 3
+ },
+ {
+  "birth_province": "Liège",
+  "year": 1928,
+  "season": "Summer Olympics",
+  "medals": 0.33,
+  "points": 0.33,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Liège",
+  "year": 1936,
+  "season": "Summer Olympics",
+  "medals": 0.25,
+  "points": 0.25,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Liège",
+  "year": 1948,
+  "season": "Summer Olympics",
+  "medals": 1.0,
+  "points": 2.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Liège",
+  "year": 1948,
+  "season": "Winter Olympics",
+  "medals": 0.25,
+  "points": 0.5,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Liège",
+  "year": 1968,
+  "season": "Summer Olympics",
+  "medals": 0.5,
+  "points": 0.5,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Liège",
+  "year": 1976,
+  "season": "Summer Olympics",
+  "medals": 0.25,
+  "points": 0.25,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Liège",
+  "year": 2000,
+  "season": "Summer Olympics",
+  "medals": 0.5,
+  "points": 0.5,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Liège",
+  "year": 2004,
+  "season": "Summer Olympics",
+  "medals": 1.0,
+  "points": 3.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Liège",
+  "year": 2012,
+  "season": "Summer Olympics",
+  "medals": 2.0,
+  "points": 3.0,
+  "medal_winners": 2
+ },
+ {
+  "birth_province": "Liège",
+  "year": 2020,
+  "season": "Summer Olympics",
+  "medals": 0.33,
+  "points": 0.33,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Liège",
+  "year": 2024,
+  "season": "Summer Olympics",
+  "medals": 1.05,
+  "points": 1.1,
+  "medal_winners": 2
+ },
+ {
+  "birth_province": "Luxembourg",
+  "year": 1924,
+  "season": "Summer Olympics",
+  "medals": 0.09,
+  "points": 0.18,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Luxembourg",
+  "year": 1984,
+  "season": "Summer Olympics",
+  "medals": 1.0,
+  "points": 1.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Namur",
+  "year": 1920,
+  "season": "Summer Olympics",
+  "medals": 0.32,
+  "points": 0.71,
+  "medal_winners": 2
+ },
+ {
+  "birth_province": "Namur",
+  "year": 1924,
+  "season": "Summer Olympics",
+  "medals": 0.25,
+  "points": 0.5,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Namur",
+  "year": 2020,
+  "season": "Summer Olympics",
+  "medals": 0.33,
+  "points": 0.33,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Namur",
+  "year": 2024,
+  "season": "Summer Olympics",
+  "medals": 1.0,
+  "points": 3.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Unknown",
+  "year": 1900,
+  "season": "Summer Olympics",
+  "medals": 1.47,
+  "points": 3.59,
+  "medal_winners": 6
+ },
+ {
+  "birth_province": "Unknown",
+  "year": 1908,
+  "season": "Summer Olympics",
+  "medals": 0.11,
+  "points": 0.22,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Unknown",
+  "year": 1920,
+  "season": "Summer Olympics",
+  "medals": 7.87,
+  "points": 17.67,
+  "medal_winners": 25
+ },
+ {
+  "birth_province": "Unknown",
+  "year": 1924,
+  "season": "Winter Olympics",
+  "medals": 0.2,
+  "points": 0.2,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Unknown",
+  "year": 1948,
+  "season": "Summer Olympics",
+  "medals": 1.0,
+  "points": 3.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Unknown",
+  "year": 1996,
+  "season": "Summer Olympics",
+  "medals": 1.0,
+  "points": 3.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Unknown",
+  "year": 2004,
+  "season": "Summer Olympics",
+  "medals": 1.0,
+  "points": 1.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Unknown",
+  "year": 2016,
+  "season": "Summer Olympics",
+  "medals": 0.06,
+  "points": 0.13,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Unknown",
+  "year": 2020,
+  "season": "Summer Olympics",
+  "medals": 1.65,
+  "points": 4.27,
+  "medal_winners": 7
+ },
+ {
+  "birth_province": "Unknown",
+  "year": 2022,
+  "season": "Winter Olympics",
+  "medals": 1.0,
+  "points": 1.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Unknown",
+  "year": 2024,
+  "season": "Summer Olympics",
+  "medals": 4.26,
+  "points": 4.26,
+  "medal_winners": 9
+ },
+ {
+  "birth_province": "Walloon Brabant",
+  "year": 1912,
+  "season": "Summer Olympics",
+  "medals": 1.0,
+  "points": 1.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Walloon Brabant",
+  "year": 1920,
+  "season": "Summer Olympics",
+  "medals": 0.14,
+  "points": 0.29,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Walloon Brabant",
+  "year": 2016,
+  "season": "Summer Olympics",
+  "medals": 0.06,
+  "points": 0.13,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "Walloon Brabant",
+  "year": 2020,
+  "season": "Summer Olympics",
+  "medals": 0.06,
+  "points": 0.19,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "West Flanders",
+  "year": 1920,
+  "season": "Summer Olympics",
+  "medals": 1.85,
+  "points": 5.14,
+  "medal_winners": 4
+ },
+ {
+  "birth_province": "West Flanders",
+  "year": 1936,
+  "season": "Summer Olympics",
+  "medals": 0.47,
+  "points": 0.47,
+  "medal_winners": 3
+ },
+ {
+  "birth_province": "West Flanders",
+  "year": 1948,
+  "season": "Summer Olympics",
+  "medals": 0.17,
+  "points": 0.17,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "West Flanders",
+  "year": 1952,
+  "season": "Summer Olympics",
+  "medals": 1.5,
+  "points": 4.5,
+  "medal_winners": 2
+ },
+ {
+  "birth_province": "West Flanders",
+  "year": 1964,
+  "season": "Summer Olympics",
+  "medals": 1.0,
+  "points": 3.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "West Flanders",
+  "year": 1980,
+  "season": "Summer Olympics",
+  "medals": 2.0,
+  "points": 6.0,
+  "medal_winners": 2
+ },
+ {
+  "birth_province": "West Flanders",
+  "year": 1984,
+  "season": "Summer Olympics",
+  "medals": 2.0,
+  "points": 3.0,
+  "medal_winners": 3
+ },
+ {
+  "birth_province": "West Flanders",
+  "year": 1988,
+  "season": "Summer Olympics",
+  "medals": 1.0,
+  "points": 1.0,
+  "medal_winners": 1
+ },
+ {
+  "birth_province": "West Flanders",
+  "year": 1996,
+  "season": "Summer Olympics",
+  "medals": 2.0,
+  "points": 5.0,
+  "medal_winners": 2
+ },
+ {
+  "birth_province": "West Flanders",
+  "year": 2000,
+  "season": "Summer Olympics",
+  "medals": 1.0,
+  "points": 1.0,
+  "medal_winners": 1
+ }
+]

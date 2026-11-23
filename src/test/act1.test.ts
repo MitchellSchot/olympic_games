@@ -1,0 +1,22 @@
+import { describe, it, expect } from 'vitest';
+import { act1Rankings, validateAct1File, validateAct1Rankings, type CountryEdition, type ReferenceRanking } from '@/lib/data';
+const base: CountryEdition = { team: 'AAA', country_name: 'Exact Name', year: 2000, season: 'Summer Olympics', gold: 10, silver: 0, bronze: 0, total_medals: 10, medal_points: 30, athlete_medal_rows: 10, population: 1e6, gdp_total_ppp: 1e11 };
+const f = { games: 'Summer' as const, from: 1994, to: 2024, min: 10 };
+describe('Act 1 export rules', () => {
+  it('rejects a missing field in any row', () => { const { population, ...missing } = base; void population; expect(() => validateAct1File('act1_country_editions.json', [base, missing])).toThrow('Row 2'); });
+  it('rejects total_medals unequal to gold + silver + bronze', () => { expect(() => validateAct1File('act1_country_editions.json', [{ ...base, total_medals: 11 }])).toThrow('total_medals'); });
+  it('rejects medal_points unequal to 3 gold + 2 silver + bronze', () => { expect(() => validateAct1File('act1_country_editions.json', [{ ...base, medal_points: 29 }])).toThrow('medal_points'); });
+  it('checks reference fields and allowed categories', () => { expect(() => validateAct1File('act1_reference_rankings.json', [{ measure: 'other' }])).toThrow(); });
+  it('reports rows and the sum of medals without changing input', () => { const rows = [base, { ...base, year: 2004 }]; const before = JSON.stringify(rows); expect(validateAct1File('act1_country_editions.json', rows)).toEqual({ rows: 2, medals: 20 }); expect(JSON.stringify(rows)).toBe(before); });
+});
+describe('Act 1 rankings', () => {
+  it('divides sums rather than averaging per-Games ratios', () => { const r = act1Rankings([base, { ...base, year: 2004, population: 3e6, gdp_total_ppp: 3e11 }], 'per_capita', f).rows[0]; expect(r?.points_ratio).toBe(15); expect(r?.medals_ratio).toBe(5); });
+  it('uses GDP PPP sums at 100 bn scale', () => { expect(act1Rankings([base, { ...base, gdp_total_ppp: 3e11 }], 'per_gdp', f).rows[0]?.points_ratio).toBe(15); });
+  it('skips null population rows, not countries, including all table sums', () => { const r = act1Rankings([base, { ...base, population: null }], 'per_capita', f).rows[0]; expect(r).toMatchObject({ gold: 10, silver: 0, bronze: 0, medals: 10, points: 30, games_attended: 1, country_name: 'Exact Name', team: 'AAA' }); });
+  it('skips null GDP independently of population', () => { const rows = [base, { ...base, gdp_total_ppp: null }]; expect(act1Rankings(rows, 'per_gdp', f).rows[0]?.medals).toBe(10); expect(act1Rankings(rows, 'per_capita', f).rows[0]?.medals).toBe(20); });
+  it('applies minimum 10 after null skipping separately per measure', () => { const r = { ...base, gold: 5, total_medals: 5, medal_points: 15 }; const rows = [r, { ...r, population: null }]; expect(act1Rankings(rows, 'per_capita', f).rows).toHaveLength(0); expect(act1Rankings(rows, 'per_gdp', f).rows).toHaveLength(1); });
+  it('All Games adds Summer and Winter denominators', () => { const rows: CountryEdition[] = [base, { ...base, season: 'Winter Olympics' }]; expect(act1Rankings(rows, 'per_capita', { ...f, games: 'All' }).rows[0]?.games_attended).toBe(2); expect(act1Rankings(rows, 'per_capita', f).rows[0]?.games_attended).toBe(1); });
+  it('uses competition ranks and exact unrounded ratios', () => { const rows = [base, { ...base, team: 'BBB' }, { ...base, team: 'CCC', population: 2e6 }]; expect(act1Rankings(rows, 'per_capita', f).rows.map(r => r.rank_points)).toEqual([1,1,3]); const exact = act1Rankings([base, { ...base, team: 'BBB', population: 1000001 }], 'per_capita', f).rows; expect(exact.map(r => r.rank_points)).toEqual([1,2]); });
+  it('filters exact season and inclusive year bounds', () => { const rows: CountryEdition[] = [base, { ...base, year: 1896 }, { ...base, year: 2025 }]; expect(act1Rankings(rows, 'per_capita', f).rows[0]?.games_attended).toBe(1); });
+  it('compares all twelve combinations and ratio tolerance 0.005', () => { const ref: ReferenceRanking = { measure: 'per_capita', option_name: 'A (1994+)', season: 'Summer Olympics', team: 'AAA', country_name: 'Exact Name', games_attended: 1, medals: 10, points: 30, rank_points: 1, rank_medals: 1, points_ratio: 30.004, medals_ratio: 10 }; const result = validateAct1Rankings([base], [ref]); expect(result).toHaveLength(12); expect(result[0]?.mismatches).toEqual([]); expect(validateAct1Rankings([base], [{ ...ref, points_ratio: 30.006 }])[0]?.mismatches).toHaveLength(1); });
+});
